@@ -20,3 +20,4 @@ Iroh blob CIDs of schema objects.
 * City.json - z6uwzbxjaj35ysrkgginybed3tztljoesdukgdjvjqb26yqugndq
 * Organization.json - erf4u7gwp4vg6ztp7qsszpnm4rrbbdtoghftlb4e6ma3ditcj3ga
 * Rating.json - ytsbyvjxhdqew2xw5xqqvhyjtl4vpelq5s4nscu72ipxnrbys3xq
+* Agent.json - dsu5vhevcszsldrte6ubm447kfo6fgcvbzvl3wa7yii6yczagzda
