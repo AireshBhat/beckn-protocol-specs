@@ -1,0 +1,30 @@
+{
+	"description": "Describes the price of a product or service",
+	"type": "object",
+	"properties": {
+		"currency": {
+			"type": "string"
+		},
+		"value": {
+			"/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq"
+		},
+		"estimated_value": {
+			"/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq"
+		},
+		"computed_value": {
+			"/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq"
+		},
+		"listed_value": {
+			"/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq"
+		},
+		"offered_value": {
+			"/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq"
+		},
+		"minimum_value": {
+			"/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq"
+		},
+		"maximum_value": {
+			"/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq"
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"description": "Describes an additional item offered as a value-addition to a product or service. This does not exist independently in a catalog and is always associated with an item.",
+	"type": "object",
+	"properties": {
+		"id": {
+			"description": "Provider-defined ID of the add-on",
+			"type": "string"
+		},
+		"descriptor": {
+			"/": "7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq"
+		},
+		"price": {
+			"/": "ry7sdabtue3lmerkrfhllqisgepn77ehhibx74f7e3rrfxneuxua"
+		}
+	}
+}

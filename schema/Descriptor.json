@@ -1,0 +1,42 @@
+{
+	"description": "Physical description of something.",
+	"type": "object",
+	"properties": {
+		"name": {
+			"type": "string"
+		},
+		"code": {
+			"type": "string"
+		},
+		"short_desc": {
+			"type": "string"
+		},
+		"long_desc": {
+			"type": "string"
+		},
+		"additional_desc": {
+			"type": "object",
+			"properties": {
+				"url": {
+					"type": "string"
+				},
+				"content_type": {
+					"type": "string",
+					"enum": ["text/plain", "text/html", "application/json"]
+				}
+			}
+		},
+		"media": {
+			"type": "array",
+			"items": {
+				"/": "l4dmo6tx7xblrifmygriz3od3l3rh4k3guo6cmqbsegbtu6qj5yq"
+			}
+		},
+		"images": {
+			"type": "array",
+			"items": {
+				"/": "dinle67scqtycnk7nohaku3625atcnov47o373whhvhcdukod2rq"
+			}
+		}
+	}
+}

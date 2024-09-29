@@ -1,0 +1,59 @@
+{
+	"description": "Describes a person as any individual",
+	"type": "object",
+	"properties": {
+		"id": {
+			"type": "string",
+			"description": "Describes the identity of the person"
+		},
+		"url": {
+			"description": "Profile url of the person",
+			"type": "string",
+			"format": "uri"
+		},
+		"name": {
+			"description": "the name of the person",
+			"type": "string"
+		},
+		"image": {
+			"/": "dinle67scqtycnk7nohaku3625atcnov47o373whhvhcdukod2rq"
+		},
+		"age": {
+			"description": "Age of the person",
+			"allOf": [{ "/": "5duseogmzb2i6ug7x464xyjvifpv2jokn4diyhkw6arjnmmqrgya" }]
+		},
+		"dob": {
+			"description": "Date of birth of the person",
+			"type": "string",
+			"format": "date"
+		},
+		"gender": {
+			"type": "string",
+			"description": "Gender of something, typically a Person, but possibly also fictional characters, animals, etc. While Male and Female may be used, text strings are also acceptable for people who do not identify as a binary gender.Allowed values for this field can be published in the network policy"
+		},
+		"creds": {
+			"type": "array",
+			"items": {
+				"/": "x2el34jcx7rr4mmxmxms5arapjpow2jjrp4ifycaixwvymdliria"
+			}
+		},
+		"languages": {
+			"type": "array",
+			"items": {
+				"/": "7v2y2elvuiamnpi35v64wececaktln7tmmj25dve3vlhy6mwmikq"
+			}
+		},
+		"skills": {
+			"type": "array",
+			"items": {
+				"/": "ctavrjij3d6dg5g3ih7pv32etdexsaiz4oewv6tjy36ixsnzkgrq"
+			}
+		},
+		"tags": {
+			"type": "array",
+			"items": {
+				"/": "hsbai342ib6mr27azfip2r2iciz76esu7yhha4kz4pvpupr7r5ga"
+			}
+		}
+	}
+}

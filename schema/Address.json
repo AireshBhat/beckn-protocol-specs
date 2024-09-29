@@ -1,0 +1,4 @@
+{
+	"description": "Describes a postal address.",
+	"type": "string"
+}

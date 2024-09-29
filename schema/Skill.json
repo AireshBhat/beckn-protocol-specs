@@ -1,0 +1,12 @@
+{
+	"description": "Describes a skill of the person.",
+	"type": "object",
+	"properties": {
+		"code": {
+			"type": "string"
+		},
+		"name": {
+			"type": "string"
+		}
+	}
+}
