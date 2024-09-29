@@ -1,5 +1,7 @@
 Iroh blob CIDs of schema objects.
 
+Beckn Schema Metadata - tlyx4p7ce2f2lxobed3hzpha5uxlcpit2te3zdukyseybd2dubrq
+
 * Image.json - dinle67scqtycnk7nohaku3625atcnov47o373whhvhcdukod2rq
 * MediaFile.json - l4dmo6tx7xblrifmygriz3od3l3rh4k3guo6cmqbsegbtu6qj5yq
 * Descriptor.json - 7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq

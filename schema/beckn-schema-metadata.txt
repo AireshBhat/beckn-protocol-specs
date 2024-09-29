@@ -1,0 +1,2 @@
+"BecknSchemaV0.0.1"
+["MediaFile.json", "Image.json", "Descriptor.json", "Tag.json", "TagGroup.json", "Ack.json", "DecimalValue.json", "Price.json", "AddOn.json", "Address.json", "Credential.json", "Duration.json", "Language.json", "Skill.json", "Person.json", "Contact.json", "State.json", "City.json", "Organization.json", "Rating.json", "Agent.json"]
