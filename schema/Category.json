@@ -1,0 +1,29 @@
+{
+	"description": "A label under which a collection of items can be grouped.",
+	"properties": {
+		"descriptor": {
+			"/": "7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq"
+		},
+		"id": {
+			"description": "ID of the category",
+			"type": "string"
+		},
+		"parent_category_id": {
+			"description": "ID of the parent category",
+			"type": "string"
+		},
+		"tags": {
+			"items": {
+				"/": "hsbai342ib6mr27azfip2r2iciz76esu7yhha4kz4pvpupr7r5ga"
+			},
+			"type": "array"
+		},
+		"time": {
+			"/": "nhsupwfrdjdoc2xs5ow63zqdaoft5thx23fj2oxiqhicslxx5eaa"
+		},
+		"ttl": {
+			"description": "Time to live for an instance of this schema"
+		}
+	},
+	"type": "object"
+}

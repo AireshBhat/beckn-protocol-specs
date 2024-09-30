@@ -1,0 +1,14 @@
+{
+	"description": "A fee applied on a particular entity",
+	"type": "object",
+	"properties": {
+		"percentage": {
+			"description": "Percentage of a value",
+			"allOf": [{ "/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq" }]
+		},
+		"amount": {
+			"description": "A fixed value",
+			"allOf": [{ "/": "ry7sdabtue3lmerkrfhllqisgepn77ehhibx74f7e3rrfxneuxua" }]
+		}
+	}
+}

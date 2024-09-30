@@ -1,0 +1,40 @@
+{
+	"description": "Describes a quote. It is the estimated price of products or services from the BPP.<br>This has properties like price, breakup, ttl",
+	"properties": {
+		"breakup": {
+			"description": "the breakup of the total quoted price",
+			"items": {
+				"properties": {
+					"item": {
+						"/": "2bp7dlwwdwmv6fndcnlqgnfg6qn74nq4p4odpeickkpshywfz57q"
+					},
+					"price": {
+						"/": "ry7sdabtue3lmerkrfhllqisgepn77ehhibx74f7e3rrfxneuxua"
+					},
+					"title": {
+						"type": "string"
+					}
+				},
+				"type": "object"
+			},
+			"type": "array"
+		},
+		"id": {
+			"description": "ID of the quote.",
+			"format": "uuid",
+			"type": "string"
+		},
+		"price": {
+			"allOf": [
+				{
+					"/": "ry7sdabtue3lmerkrfhllqisgepn77ehhibx74f7e3rrfxneuxua"
+				}
+			],
+			"description": "The total quoted price"
+		},
+		"ttl": {
+			"/": "5duseogmzb2i6ug7x464xyjvifpv2jokn4diyhkw6arjnmmqrgya"
+		}
+	},
+	"type": "object"
+}

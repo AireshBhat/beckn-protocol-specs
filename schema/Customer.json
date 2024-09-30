@@ -1,0 +1,12 @@
+{
+	"description": "Describes a customer buying/availing a product or a service",
+	"properties": {
+		"contact": {
+			"/": "slpujewgfyiasvotmwxejuxxo7qe3wss3bbawo3atmclp7dp7cwq"
+		},
+		"person": {
+			"/": "iv6fdwtj5dyislfnfgq3vy63lzrpylkwwa2bb3rdjdlpmciqzcla"
+		}
+	},
+	"type": "object"
+}

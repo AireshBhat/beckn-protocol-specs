@@ -1,0 +1,182 @@
+{
+	"description": "Describes a product or a service offered to the end consumer by the provider. In the mobility sector, it can represent a fare product like one way journey. In the logistics sector, it can represent the delivery service offering. In the retail domain it can represent a product like a grocery item.",
+	"properties": {
+		"add_ons": {
+			"items": {
+				"/": "6uzletxmh6ulw6rvrjozuwew3fju7hvg2fwyqijdsvb4s2jqr5ca"
+			},
+			"type": "array"
+		},
+		"cancellation_terms": {
+			"description": "Cancellation terms of this item",
+			"items": {
+				"/": "t6hafrvmkxskayswqvemtuhh63bp3lvak2dvhvzafongzgso6yqa"
+			},
+			"type": "array"
+		},
+		"category_ids": {
+			"description": "Categories this item can be listed under",
+			"items": {
+				"allOf": [
+					{
+						"/": "lniviguitiz3dj3vgianna6aec3gaz6yg73pqa2isbqsjmldroqq.properties.id"
+					}
+				]
+			},
+			"type": "array"
+		},
+		"creator": {
+			"allOf": [
+				{
+					"/": "erf4u7gwp4vg6ztp7qsszpnm4rrbbdtoghftlb4e6ma3ditcj3ga"
+				}
+			],
+			"description": "The creator of this item"
+		},
+		"descriptor": {
+			"allOf": [
+				{
+					"/": "7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq"
+				}
+			],
+			"description": "Physical description of the item"
+		},
+		"fulfillment_ids": {
+			"description": "Modes through which this item can be fulfilled",
+			"items": {
+				"allOf": [
+					{
+						"/": "mvqju3q2kw7wihxrynj2ismraxunbw4tqmwzqjfz76yqtnziamea.properties.id"
+					}
+				]
+			},
+			"type": "array"
+		},
+		"id": {
+			"description": "ID of the item.",
+			"type": "string"
+		},
+		"location_ids": {
+			"description": "Provider Locations this item is available in",
+			"items": {
+				"allOf": [
+					{
+						"/": "4tkrkcz3dwkfnyyatcennprcmovc7ky3ovljbxqhny7nmld4ajbq.properties.id"
+					}
+				]
+			},
+			"type": "array"
+		},
+		"matched": {
+			"description": "Whether this item is an exact match of the request",
+			"type": "boolean"
+		},
+		"parent_item_id": {
+			"description": "ID of the parent item.",
+			"type": "string"
+		},
+		"parent_item_quantity": {
+			"allOf": [
+				{
+					"/": "bjral3kmv7ykwkqdsvauhpdwoobha6payrz43rcldehxb7a45woq"
+				}
+			],
+			"description": "The number of units of the parent item this item is a multiple of"
+		},
+		"payment_ids": {
+			"description": "Payment modalities through which this item can be ordered",
+			"items": {
+				"allOf": [
+					{
+						"/": "qah7pq37uhtjrqbd23tx7omhkinaylmb7yilkag6wzlrfxb6cznq.properties.id"
+					}
+				]
+			},
+			"type": "array"
+		},
+		"price": {
+			"allOf": [
+				{
+					"/": "ry7sdabtue3lmerkrfhllqisgepn77ehhibx74f7e3rrfxneuxua"
+				}
+			],
+			"description": "The price of this item, if it has intrinsic value"
+		},
+		"quantity": {
+			"allOf": [
+				{
+					"/": "bjral3kmv7ykwkqdsvauhpdwoobha6payrz43rcldehxb7a45woq"
+				}
+			],
+			"description": "The selling quantity of the item"
+		},
+		"rateable": {
+			"description": "Whether this item can be rated",
+			"type": "boolean"
+		},
+		"rating": {
+			"allOf": [
+				{
+					"/": "ytsbyvjxhdqew2xw5xqqvhyjtl4vpelq5s4nscu72ipxnrbys3xq.properties.value"
+				}
+			],
+			"description": "The rating of the item"
+		},
+		"recommended": {
+			"description": "Whether this item is a recommended item to a response",
+			"type": "boolean"
+		},
+		"refund_terms": {
+			"description": "Refund terms of this item",
+			"items": {
+				"/": "5zmabode6zr7vqgz3enakevmz43ufk32dqd2u2mj3bou3ulcmlaq"
+			},
+			"type": "array"
+		},
+		"related": {
+			"description": "Whether this item is a related item to the exactly matched item",
+			"type": "boolean"
+		},
+		"replacement_terms": {
+			"description": "Terms that are applicable be met when this item is replaced",
+			"items": {
+				"/": "m2tukduax6s3hhc2qrkcoguq5tvjelejckb73pmjwjzdemehucta"
+			},
+			"type": "array"
+		},
+		"return_terms": {
+			"description": "Terms that are applicable when this item is returned",
+			"items": {
+				"/": "pvcdxsosmt2ntdjvyla2uujnbvad6e5nxinisuzkzdhol45ue7ka"
+			},
+			"type": "array"
+		},
+		"tags": {
+			"items": {
+				"/": "hsbai342ib6mr27azfip2r2iciz76esu7yhha4kz4pvpupr7r5ga"
+			},
+			"type": "array"
+		},
+		"time": {
+			"allOf": [
+				{
+					"/": "nhsupwfrdjdoc2xs5ow63zqdaoft5thx23fj2oxiqhicslxx5eaa"
+				}
+			],
+			"description": "Temporal attributes of this item. This property is used when the item exists on the catalog only for a limited period of time."
+		},
+		"ttl": {
+			"description": "Time to live in seconds for an instance of this schema",
+			"type": "string"
+		},
+		"xinput": {
+			"allOf": [
+				{
+					"/": "lxiop4ljptuzockkvpjruh7rk3nu3mq6thtxwtrwxvs6ya2nw5na"
+				}
+			],
+			"description": "Additional input required from the customer to purchase / avail this item"
+		}
+	},
+	"type": "object"
+}

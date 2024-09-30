@@ -1,0 +1,12 @@
+{
+	"description": "Describes a selectable option",
+	"type": "object",
+	"properties": {
+		"id": {
+			"type": "string"
+		},
+		"descriptor": {
+			"/": "7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq"
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"description": "A unique operational configuration of a trusted platform on a network.",
+	"properties": {
+		"domain": {
+			"allOf": [
+				{
+					"/": "e46qqeftdg6ecypn62hf6h2fxr6jzdnjsh4uqiidausachv4kdra.properties.code"
+				}
+			],
+			"description": "Operating industry domain that this subscriber offers its products or services in. A single subscriber can operate in multiple domains. Each operating domain must have a unique subscriber object entry in the req"
+		},
+		"location": {
+			"allOf": [
+				{
+					"/": "4tkrkcz3dwkfnyyatcennprcmovc7ky3ovljbxqhny7nmld4ajbq"
+				}
+			],
+			"description": "The region of operation of this subscriber"
+		},
+		"subscriber_id": {
+			"description": "A globally unique identifier of the platform, Typically it is the fully qualified domain name (FQDN) of the platform.",
+			"type": "string"
+		},
+		"type": {
+			"description": "The role of subscriber on the network",
+			"enum": ["BAP", "BPP", "BG"],
+			"type": "string"
+		},
+		"url": {
+			"description": "The callback URL of the Subscriber. This should necessarily contain the same domain name as set in `subscriber_id``.",
+			"format": "uri",
+			"type": "string"
+		}
+	},
+	"type": "object"
+}

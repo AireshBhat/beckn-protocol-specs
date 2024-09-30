@@ -1,0 +1,85 @@
+{
+	"description": "Describes the count or amount of an item",
+	"properties": {
+		"allocated": {
+			"description": "This represents the exact quantity allocated for purchase of the item.",
+			"properties": {
+				"count": {
+					"minimum": 0,
+					"type": "integer"
+				},
+				"measure": {
+					"/": "jnwcw4gcl5s6ga6o4qbzn5vzdpmged4am3i3iagytqreugygrydq"
+				}
+			},
+			"type": "object"
+		},
+		"available": {
+			"description": "This represents the exact quantity available for purchase of the item. The buyer can only purchase multiples of this",
+			"properties": {
+				"count": {
+					"minimum": 0,
+					"type": "integer"
+				},
+				"measure": {
+					"/": "jnwcw4gcl5s6ga6o4qbzn5vzdpmged4am3i3iagytqreugygrydq"
+				}
+			},
+			"type": "object"
+		},
+		"maximum": {
+			"description": "This represents the maximum quantity allowed for purchase of the item",
+			"properties": {
+				"count": {
+					"minimum": 1,
+					"type": "integer"
+				},
+				"measure": {
+					"/": "jnwcw4gcl5s6ga6o4qbzn5vzdpmged4am3i3iagytqreugygrydq"
+				}
+			},
+			"type": "object"
+		},
+		"minimum": {
+			"description": "This represents the minimum quantity allowed for purchase of the item",
+			"properties": {
+				"count": {
+					"minimum": 0,
+					"type": "integer"
+				},
+				"measure": {
+					"/": "jnwcw4gcl5s6ga6o4qbzn5vzdpmged4am3i3iagytqreugygrydq"
+				}
+			},
+			"type": "object"
+		},
+		"selected": {
+			"description": "This represents the quantity selected for purchase of the item",
+			"properties": {
+				"count": {
+					"minimum": 0,
+					"type": "integer"
+				},
+				"measure": {
+					"/": "jnwcw4gcl5s6ga6o4qbzn5vzdpmged4am3i3iagytqreugygrydq"
+				}
+			},
+			"type": "object"
+		},
+		"unitized": {
+			"description": "This represents the quantity available in a single unit of the item",
+			"properties": {
+				"count": {
+					"maximum": 1,
+					"minimum": 1,
+					"type": "integer"
+				},
+				"measure": {
+					"/": "jnwcw4gcl5s6ga6o4qbzn5vzdpmged4am3i3iagytqreugygrydq"
+				}
+			},
+			"type": "object"
+		}
+	},
+	"type": "object"
+}

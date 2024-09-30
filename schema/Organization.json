@@ -1,0 +1,24 @@
+{
+	"description": "An organization. Usually a recognized business entity.",
+	"type": "object",
+	"properties": {
+		"descriptor": {
+			"/": "7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq"
+		},
+		"address": {
+			"description": "The postal address of the organization",
+			"allOf": [{ "/": "2mlxofyso5lhyy334726qh5pddxhgnxiuija4re2znldsfy2mo2a" }]
+		},
+		"state": {
+			"description": "The state where the organization's address is registered",
+			"allOf": [{ "/": "ehfnoo7mziuhlqs4xnoar4wi3c3r4uqdeg4xt7qrrqhahsunsglq" }]
+		},
+		"city": {
+			"description": "The city where the the organization's address is registered",
+			"allOf": [{ "/": "z6uwzbxjaj35ysrkgginybed3tztljoesdukgdjvjqb26yqugndq" }]
+		},
+		"contact": {
+			"/": "slpujewgfyiasvotmwxejuxxo7qe3wss3bbawo3atmclp7dp7cwq"
+		}
+	}
+}

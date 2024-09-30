@@ -5,9 +5,8 @@ properties:
     description: ID of the item.
     type: string
   parent_item_id:
-    description: ID of the item, this item is a variant of
-    allOf:
-      - $ref: "./Item.yaml#/properties/id"
+    description: ID of the parent item.
+    type: string
   parent_item_quantity:
     description: The number of units of the parent item this item is a multiple of
     allOf:

@@ -1,0 +1,55 @@
+{
+	"allOf": [
+		{
+			"/": "dmzrfouekyz2k4xc6tgjtnulgqgt2k5omxd2uwtvjyelifl4lzqq"
+		},
+		{
+			"properties": {
+				"created": {
+					"format": "date-time",
+					"type": "string"
+				},
+				"encr_public_key": {
+					"description": "The encryption public key of the subscriber",
+					"type": "string"
+				},
+				"key_id": {
+					"description": "A unique ID of the subscription entry in a registry.",
+					"format": "uuid",
+					"type": "string"
+				},
+				"signing_public_key": {
+					"description": "The signing public key of the subscriber",
+					"type": "string"
+				},
+				"status": {
+					"description": "Status of the subscription",
+					"enum": [
+						"INITIATED",
+						"UNDER_SUBSCRIPTION",
+						"SUBSCRIBED",
+						"EXPIRED",
+						"UNSUBSCRIBED",
+						"INVALID_SSL"
+					],
+					"type": "string"
+				},
+				"updated": {
+					"format": "date-time",
+					"type": "string"
+				},
+				"valid_from": {
+					"description": "Date-time which the signing and encryption keys are valid from",
+					"format": "date-time",
+					"type": "string"
+				},
+				"valid_until": {
+					"description": "Time till which the signing and encryption keys are valid",
+					"format": "date-time",
+					"type": "string"
+				}
+			}
+		}
+	],
+	"description": "Subscription details of a Network Participant."
+}

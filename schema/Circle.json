@@ -1,0 +1,12 @@
+{
+	"description": "Describes a circular region of a specified radius centered at a specified GPS coordinate.",
+	"properties": {
+		"gps": {
+			"/": "jctn7xkgoekt5blnp2m42ifzsg65ssj3xlg2rzsbr7khqukmznpa"
+		},
+		"radius": {
+			"/": "jnwcw4gcl5s6ga6o4qbzn5vzdpmged4am3i3iagytqreugygrydq"
+		}
+	},
+	"type": "object"
+}

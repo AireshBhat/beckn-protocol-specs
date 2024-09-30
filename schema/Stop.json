@@ -1,0 +1,59 @@
+{
+	"description": "A logical point in space and time during the fulfillment of an order.",
+	"properties": {
+		"authorization": {
+			"/": "yvr5b5efkiccnal5n27t3c5kteuk6rxcgj2ha4aelv2sz3ek5ika"
+		},
+		"contact": {
+			"allOf": [
+				{
+					"/": "slpujewgfyiasvotmwxejuxxo7qe3wss3bbawo3atmclp7dp7cwq"
+				}
+			],
+			"description": "Contact details of the stop"
+		},
+		"id": {
+			"type": "string"
+		},
+		"instructions": {
+			"allOf": [
+				{
+					"/": "7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq"
+				}
+			],
+			"description": "Instructions that need to be followed at the stop"
+		},
+		"location": {
+			"allOf": [
+				{
+					"/": "4tkrkcz3dwkfnyyatcennprcmovc7ky3ovljbxqhny7nmld4ajbq"
+				}
+			],
+			"description": "Location of the stop"
+		},
+		"parent_stop_id": {
+			"type": "string"
+		},
+		"person": {
+			"allOf": [
+				{
+					"/": "iv6fdwtj5dyislfnfgq3vy63lzrpylkwwa2bb3rdjdlpmciqzcla"
+				}
+			],
+			"description": "The details of the person present at the stop"
+		},
+		"time": {
+			"allOf": [
+				{
+					"/": "nhsupwfrdjdoc2xs5ow63zqdaoft5thx23fj2oxiqhicslxx5eaa"
+				}
+			],
+			"description": "Timings applicable at the stop."
+		},
+		"type": {
+			"description": "The type of stop. Allowed values of this property can be defined by the network policy.",
+			"type": "string"
+		}
+	},
+	"type": "object"
+}

@@ -1,0 +1,29 @@
+{
+	"description": "Refund term of an item or an order",
+	"properties": {
+		"fulfillment_state": {
+			"allOf": [
+				{
+					"/": "ehfnoo7mziuhlqs4xnoar4wi3c3r4uqdeg4xt7qrrqhahsunsglq"
+				}
+			],
+			"description": "The state of fulfillment during which this term is applicable."
+		},
+		"refund_amount": {
+			"/": "ry7sdabtue3lmerkrfhllqisgepn77ehhibx74f7e3rrfxneuxua"
+		},
+		"refund_eligible": {
+			"description": "Indicates if cancellation will result in a refund",
+			"type": "boolean"
+		},
+		"refund_within": {
+			"allOf": [
+				{
+					"/": "nhsupwfrdjdoc2xs5ow63zqdaoft5thx23fj2oxiqhicslxx5eaa"
+				}
+			],
+			"description": "Time within which refund will be processed after successful cancellation."
+		}
+	},
+	"type": "object"
+}

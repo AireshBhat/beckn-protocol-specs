@@ -1,0 +1,39 @@
+{
+	"description": "An offer associated with a catalog. This is typically used to promote a particular product and enable more purchases.",
+	"properties": {
+		"category_ids": {
+			"items": {
+				"/": "lniviguitiz3dj3vgianna6aec3gaz6yg73pqa2isbqsjmldroqq.properties.id"
+			},
+			"type": "array"
+		},
+		"descriptor": {
+			"/": "7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq"
+		},
+		"id": {
+			"type": "string"
+		},
+		"item_ids": {
+			"items": {
+				"/": "2bp7dlwwdwmv6fndcnlqgnfg6qn74nq4p4odpeickkpshywfz57q.properties.id"
+			},
+			"type": "array"
+		},
+		"location_ids": {
+			"items": {
+				"/": "4tkrkcz3dwkfnyyatcennprcmovc7ky3ovljbxqhny7nmld4ajbq.properties.id"
+			},
+			"type": "array"
+		},
+		"tags": {
+			"items": {
+				"/": "hsbai342ib6mr27azfip2r2iciz76esu7yhha4kz4pvpupr7r5ga"
+			},
+			"type": "array"
+		},
+		"time": {
+			"/": "nhsupwfrdjdoc2xs5ow63zqdaoft5thx23fj2oxiqhicslxx5eaa"
+		}
+	},
+	"type": "object"
+}

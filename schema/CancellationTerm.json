@@ -1,0 +1,35 @@
+{
+	"description": "Describes the cancellation terms of an item or an order. This can be referenced at an item or order level. Item-level cancellation terms can override the terms at the order level.",
+	"properties": {
+		"cancel_by": {
+			"allOf": [
+				{
+					"/": "nhsupwfrdjdoc2xs5ow63zqdaoft5thx23fj2oxiqhicslxx5eaa"
+				}
+			],
+			"description": "Information related to the time of cancellation."
+		},
+		"cancellation_fee": {
+			"/": "klxw62ub4zvark6d43265qnjgzk4ifz36i5i4lkiog2zf4llkgma"
+		},
+		"external_ref": {
+			"/": "l4dmo6tx7xblrifmygriz3od3l3rh4k3guo6cmqbsegbtu6qj5yq"
+		},
+		"fulfillment_state": {
+			"allOf": [
+				{
+					"/": "izqy6k634jglmrhf5chtglxk726pvph57slsmjpsku3a3fwxzaoa"
+				}
+			],
+			"description": "The state of fulfillment during which this term is applicable."
+		},
+		"reason_required": {
+			"description": "Indicates whether a reason is required to cancel the order",
+			"type": "boolean"
+		},
+		"xinput": {
+			"/": "lxiop4ljptuzockkvpjruh7rk3nu3mq6thtxwtrwxvs6ya2nw5na"
+		}
+	},
+	"type": "object"
+}

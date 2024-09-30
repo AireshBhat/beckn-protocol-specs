@@ -1,0 +1,17 @@
+{
+	"description": "Describes the state of fulfillment",
+	"type": "object",
+	"properties": {
+		"descriptor": {
+			"/": "7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq"
+		},
+		"updated_at": {
+			"type": "string",
+			"format": "date-time"
+		},
+		"updated_by": {
+			"type": "string",
+			"description": "ID of entity which changed the state"
+		}
+	}
+}
