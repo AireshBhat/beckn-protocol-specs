@@ -1,0 +1,5 @@
+{
+	"description": "The time-to-live in seconds, for this object. This can be overriden at deeper levels. A value of -1 indicates that the associated object is valid only once.",
+	"minimum": -1,
+	"type": "integer"
+}

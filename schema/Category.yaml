@@ -5,7 +5,8 @@ properties:
     description: ID of the category
     type: string
   parent_category_id:
-    $ref: "#/properties/id"
+    description: ID of the parent category
+    type: string
   descriptor:
     $ref: "./Descriptor.yaml"
   time:

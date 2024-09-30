@@ -1,0 +1,23 @@
+{
+	"description": "Describes a cancellation event",
+	"type": "object",
+	"properties": {
+		"time": {
+			"description": "Date-time when the order was cancelled by the buyer",
+			"type": "string",
+			"format": "date-time"
+		},
+		"cancelled_by": {
+			"type": "string",
+			"enum": ["CONSUMER", "PROVIDER"]
+		},
+		"reason": {
+			"description": "The reason for cancellation",
+			"allOf": [{ "/": "wwmwhmtuxdc2bxv4aykfm6w75ulzdqa27idyl7fylgyeq4mntdkq" }]
+		},
+		"additional_description": {
+			"description": "Any additional information regarding the nature of cancellation",
+			"allOf": [{ "/": "7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq" }]
+		}
+	}
+}

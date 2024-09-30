@@ -1,0 +1,63 @@
+{
+	"description": "Describes the billing details of an entity.<br>This has properties like name,organization,address,email,phone,time,tax_number, created_at,updated_at",
+	"type": "object",
+	"properties": {
+		"name": {
+			"description": "Name of the billable entity",
+			"type": "string"
+		},
+		"organization": {
+			"description": "Details of the organization being billed.",
+			"/": [
+				{
+					"$ref": "erf4u7gwp4vg6ztp7qsszpnm4rrbbdtoghftlb4e6ma3ditcj3ga"
+				}
+			]
+		},
+		"address": {
+			"description": "The address of the billable entity",
+			"/": [
+				{
+					"$ref": "2mlxofyso5lhyy334726qh5pddxhgnxiuija4re2znldsfy2mo2a"
+				}
+			]
+		},
+		"state": {
+			"description": "The state where the billable entity resides. This is important for state-level tax calculation",
+			"/": [
+				{
+					"$ref": "ehfnoo7mziuhlqs4xnoar4wi3c3r4uqdeg4xt7qrrqhahsunsglq"
+				}
+			]
+		},
+		"city": {
+			"description": "The city where the billable entity resides.",
+			"/": [
+				{
+					"$ref": "z6uwzbxjaj35ysrkgginybed3tztljoesdukgdjvjqb26yqugndq"
+				}
+			]
+		},
+		"email": {
+			"description": "Email address where the bill is sent to",
+			"type": "string",
+			"format": "email"
+		},
+		"phone": {
+			"description": "Phone number of the billable entity",
+			"type": "string"
+		},
+		"time": {
+			"description": "Details regarding the billing period",
+			"/": [
+				{
+					"$ref": "nhsupwfrdjdoc2xs5ow63zqdaoft5thx23fj2oxiqhicslxx5eaa"
+				}
+			]
+		},
+		"tax_id": {
+			"description": "ID of the billable entity as recognized by the taxation authority",
+			"type": "string"
+		}
+	}
+}

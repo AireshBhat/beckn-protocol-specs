@@ -1,6 +1,6 @@
 Iroh blob CIDs of schema objects.
 
-Beckn Schema Metadata - tlyx4p7ce2f2lxobed3hzpha5uxlcpit2te3zdukyseybd2dubrq
+Beckn Schema Metadata - lt5o224nqm7xxhfq62jobyws7gq2aioc6tz4565ygqbzspd4njaa
 
 * Image.json - dinle67scqtycnk7nohaku3625atcnov47o373whhvhcdukod2rq
 * MediaFile.json - l4dmo6tx7xblrifmygriz3od3l3rh4k3guo6cmqbsegbtu6qj5yq
@@ -23,3 +23,46 @@ Beckn Schema Metadata - tlyx4p7ce2f2lxobed3hzpha5uxlcpit2te3zdukyseybd2dubrq
 * Organization.json - erf4u7gwp4vg6ztp7qsszpnm4rrbbdtoghftlb4e6ma3ditcj3ga
 * Rating.json - ytsbyvjxhdqew2xw5xqqvhyjtl4vpelq5s4nscu72ipxnrbys3xq
 * Agent.json - dsu5vhevcszsldrte6ubm447kfo6fgcvbzvl3wa7yii6yczagzda
+* Authorization.json - yvr5b5efkiccnal5n27t3c5kteuk6rxcgj2ha4aelv2sz3ek5ika
+* Schedule.json - lm2pvfd7pjv2mesrbcjh6xw4i3d4zv2hrej3uqd43qqprzbaqj7a
+* Time.json - nhsupwfrdjdoc2xs5ow63zqdaoft5thx23fj2oxiqhicslxx5eaa
+* Billing.json - f7f2igm3l6sqkvz7idhbk52hyqxfpq2mqnjngq2cvwhiklv36ija
+* Option.json - wwmwhmtuxdc2bxv4aykfm6w75ulzdqa27idyl7fylgyeq4mntdkq
+* Cancellation.json - tavtvo4iijbw4cjv6t5doc5lev6ofrvm2fjnvfqmxntoonnq52fa
+* Fee.json - klxw62ub4zvark6d43265qnjgzk4ifz36i5i4lkiog2zf4llkgma
+* Form.json - liq3xdgnk6naxpgmj4si7phq2u6civudn7jlzdb2d35psc5luala
+* XInput.json - lxiop4ljptuzockkvpjruh7rk3nu3mq6thtxwtrwxvs6ya2nw5na
+* FulfillmentState.json - izqy6k634jglmrhf5chtglxk726pvph57slsmjpsku3a3fwxzaoa
+* CancellationTerm.json - t6hafrvmkxskayswqvemtuhh63bp3lvak2dvhvzafongzgso6yqa
+* Payment.json - qah7pq37uhtjrqbd23tx7omhkinaylmb7yilkag6wzlrfxb6cznq
+* Category.json - lniviguitiz3dj3vgianna6aec3gaz6yg73pqa2isbqsjmldroqq
+* Gps.json - jctn7xkgoekt5blnp2m42ifzsg65ssj3xlg2rzsbr7khqukmznpa
+* Scalar.json - jnwcw4gcl5s6ga6o4qbzn5vzdpmged4am3i3iagytqreugygrydq
+* Circle.json - u3bowvlbzy5dcytlkig4b35j3jxffsilzr6r7wv4vrn2xcotq6lq
+* Country.json - rgycif5ours3rvkdrcp6o5t4ozewjobaaqlajxaaclu2nh6eaoba
+* Location.json - 4tkrkcz3dwkfnyyatcennprcmovc7ky3ovljbxqhny7nmld4ajbq
+* Domain.json - e46qqeftdg6ecypn62hf6h2fxr6jzdnjsh4uqiidausachv4kdra
+* Subscriber.json - dmzrfouekyz2k4xc6tgjtnulgqgt2k5omxd2uwtvjyelifl4lzqq
+* Context.json - svgalmw2kuxdisvaneu6nkmjn6dtrgvewgkoskujx6ezwslop6ma
+* Customer.json - szkr43gnx5wrn3t2ui5oki7h4jqi4ls4fte4tfmzl2ifczueqfba
+* Error.json - uunog7ujxbbf5wubpx24lh6b6b7frevy3g55xr2fxknizvfaequq
+* Vehicle.json - 6yd4nte3hwmt43ljrxfn6ndo22cv5honwj4vjchs35xexvjqah5a
+* Stop.json - qqqrjf2kr55avhtn2kmautywfwnytptt2lrioa6y7gbytrycvcca
+* Fulfillment.json - mvqju3q2kw7wihxrynj2ismraxunbw4tqmwzqjfz76yqtnziamea
+* ItemQuantity.json - bjral3kmv7ykwkqdsvauhpdwoobha6payrz43rcldehxb7a45woq
+* RefundTerm.json - 5zmabode6zr7vqgz3enakevmz43ufk32dqd2u2mj3bou3ulcmlaq
+* ReplacementTerm.json - m2tukduax6s3hhc2qrkcoguq5tvjelejckb73pmjwjzdemehucta
+* ReturnTerm.json - pvcdxsosmt2ntdjvyla2uujnbvad6e5nxinisuzkzdhol45ue7ka
+* Item.json - 2bp7dlwwdwmv6fndcnlqgnfg6qn74nq4p4odpeickkpshywfz57q
+* Offer.json - eqvo2r7woow2fqfxc6mzaq6ou3ox4ck5xm4jt6kzy6p7lnb6cd6q
+* Provider.json - jx4jcsrr5vzfmt7dwtq22lxjsumgpvsynk5gzviht4nu2bslfmsq
+* Catalog.json - 2qndwxt55smbsepzweihpj2hg7gst2vz7l5fdcsw473vyqnivasa
+* FormResponse.json - jieltzp3ekrdzdrptyxf3fwrs4asgzehxavkqwnwkqqojpbhynyq
+* Intent.json - wwcvooo55mwf66a7hmbpemxcq5p3bedw6ashelpfrn65gjzxjmpa
+* Quotation.json - rg22g3eqs3r3zdetk5no2tq53dx34eu7mllvjwivmyld3wtizusq
+* Order.json - byvrl3cgkpaygakr2n6vnr4otczo3wrru32umu2edcq6btpybxbq
+* Region.json - 2tceqfz5drihyitr2m3dzy7gwmmj7gmsj5cqlrbskdrkih3t3wuq
+* Subscription.json - nz42x3a3hj5ar3q5eabvhubl3fncb22vmv6trc3wv2qe4du2f26q
+* Support.json - wnw5j5laqdg6wwbfkkthyhwpldafjdoyjut445h6f5jp4bf3jq6q
+* TimeToLive.json - ebx5iqzowazmpxrvuuobdvtislhnaepowdtvaw2eaeflq2kqf43q
+* Tracking.json - hn7kf5twqjkzi5mmmcvhzk7lbjrui5xxlg5uu4gdacpxc7ffnvfa

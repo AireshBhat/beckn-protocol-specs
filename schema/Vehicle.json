@@ -1,0 +1,48 @@
+{
+	"description": "Describes a vehicle is a device that is designed or used to transport people or cargo over land, water, air, or through space.<br>This has properties like category, capacity, make, model, size,variant,color,energy_type,registration",
+	"properties": {
+		"capacity": {
+			"type": "integer"
+		},
+		"cargo_volumne": {
+			"type": "string"
+		},
+		"category": {
+			"type": "string"
+		},
+		"code": {
+			"type": "string"
+		},
+		"color": {
+			"type": "string"
+		},
+		"emission_standard": {
+			"type": "string"
+		},
+		"energy_type": {
+			"type": "string"
+		},
+		"make": {
+			"type": "string"
+		},
+		"model": {
+			"type": "string"
+		},
+		"registration": {
+			"type": "string"
+		},
+		"size": {
+			"type": "string"
+		},
+		"variant": {
+			"type": "string"
+		},
+		"wheelchair_access": {
+			"type": "string"
+		},
+		"wheels_count": {
+			"type": "string"
+		}
+	},
+	"type": "object"
+}

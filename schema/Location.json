@@ -1,0 +1,83 @@
+{
+	"description": "The physical location of something",
+	"properties": {
+		"3dspace": {
+			"description": "The three dimensional region describing this location",
+			"type": "string"
+		},
+		"address": {
+			"allOf": [
+				{
+					"/": "2mlxofyso5lhyy334726qh5pddxhgnxiuija4re2znldsfy2mo2a"
+				}
+			],
+			"description": "The address of this location."
+		},
+		"area_code": {
+			"type": "string"
+		},
+		"circle": {
+			"/": "u3bowvlbzy5dcytlkig4b35j3jxffsilzr6r7wv4vrn2xcotq6lq"
+		},
+		"city": {
+			"allOf": [
+				{
+					"/": "z6uwzbxjaj35ysrkgginybed3tztljoesdukgdjvjqb26yqugndq"
+				}
+			],
+			"description": "The city this location is, or is located within"
+		},
+		"country": {
+			"allOf": [
+				{
+					"/": "rgycif5ours3rvkdrcp6o5t4ozewjobaaqlajxaaclu2nh6eaoba"
+				}
+			],
+			"description": "The country this location is, or is located within"
+		},
+		"descriptor": {
+			"/": "7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq"
+		},
+		"district": {
+			"description": "The state this location is, or is located within",
+			"type": "string"
+		},
+		"gps": {
+			"allOf": [
+				{
+					"/": "jctn7xkgoekt5blnp2m42ifzsg65ssj3xlg2rzsbr7khqukmznpa"
+				}
+			],
+			"description": "The GPS co-ordinates of this location."
+		},
+		"id": {
+			"type": "string"
+		},
+		"map_url": {
+			"description": "The url to the map of the location. This can be a globally recognized map url or the one specified by the network policy.",
+			"format": "uri",
+			"type": "string"
+		},
+		"polygon": {
+			"description": "The boundary polygon of this location",
+			"type": "string"
+		},
+		"rating": {
+			"allOf": [
+				{
+					"/": "ytsbyvjxhdqew2xw5xqqvhyjtl4vpelq5s4nscu72ipxnrbys3xq.properties.value"
+				}
+			],
+			"description": "The rating of this location"
+		},
+		"state": {
+			"allOf": [
+				{
+					"/": "ehfnoo7mziuhlqs4xnoar4wi3c3r4uqdeg4xt7qrrqhahsunsglq"
+				}
+			],
+			"description": "The state this location is, or is located within"
+		}
+	},
+	"type": "object"
+}

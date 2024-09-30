@@ -1,0 +1,25 @@
+{
+	"description": "The replacement policy of an item or an order",
+	"properties": {
+		"external_ref": {
+			"/": "l4dmo6tx7xblrifmygriz3od3l3rh4k3guo6cmqbsegbtu6qj5yq"
+		},
+		"fulfillment_state": {
+			"allOf": [
+				{
+					"/": "ehfnoo7mziuhlqs4xnoar4wi3c3r4uqdeg4xt7qrrqhahsunsglq"
+				}
+			],
+			"description": "The state of fulfillment during which this term is applicable."
+		},
+		"replace_within": {
+			"allOf": [
+				{
+					"/": "nhsupwfrdjdoc2xs5ow63zqdaoft5thx23fj2oxiqhicslxx5eaa"
+				}
+			],
+			"description": "Applicable only for buyer managed returns where the buyer has to replace the item before a certain date-time, failing which they will not be eligible for replacement"
+		}
+	},
+	"type": "object"
+}

@@ -1,0 +1,148 @@
+{
+	"description": "Describes a legal purchase order. It contains the complete details of the legal contract created between the buyer and the seller.",
+	"properties": {
+		"add_ons": {
+			"description": "The add-ons purchased / availed in this order",
+			"items": {
+				"/": "6uzletxmh6ulw6rvrjozuwew3fju7hvg2fwyqijdsvb4s2jqr5ca"
+			},
+			"type": "array"
+		},
+		"billing": {
+			"allOf": [
+				{
+					"/": "f7f2igm3l6sqkvz7idhbk52hyqxfpq2mqnjngq2cvwhiklv36ija"
+				}
+			],
+			"description": "The billing details of this order"
+		},
+		"cancellation": {
+			"allOf": [
+				{
+					"/": "tavtvo4iijbw4cjv6t5doc5lev6ofrvm2fjnvfqmxntoonnq52fa"
+				}
+			],
+			"description": "The cancellation details of this order"
+		},
+		"cancellation_terms": {
+			"description": "Cancellation terms of this item",
+			"items": {
+				"/": "t6hafrvmkxskayswqvemtuhh63bp3lvak2dvhvzafongzgso6yqa"
+			},
+			"type": "array"
+		},
+		"created_at": {
+			"description": "The date-time of creation of this order",
+			"format": "date-time",
+			"type": "string"
+		},
+		"fulfillments": {
+			"description": "The fulfillments involved in completing this order",
+			"items": {
+				"/": "mvqju3q2kw7wihxrynj2ismraxunbw4tqmwzqjfz76yqtnziamea"
+			},
+			"type": "array"
+		},
+		"id": {
+			"description": "Human-readable ID of the order. This is generated at the BPP layer. The BPP can either generate order id within its system or forward the order ID created at the provider level.",
+			"type": "string"
+		},
+		"items": {
+			"description": "The items purchased / availed in this order",
+			"items": {
+				"/": "2bp7dlwwdwmv6fndcnlqgnfg6qn74nq4p4odpeickkpshywfz57q"
+			},
+			"type": "array"
+		},
+		"offers": {
+			"description": "The offers applied in this order",
+			"items": {
+				"/": "eqvo2r7woow2fqfxc6mzaq6ou3ox4ck5xm4jt6kzy6p7lnb6cd6q"
+			},
+			"type": "array"
+		},
+		"payments": {
+			"description": "The terms of settlement for this order",
+			"items": {
+				"/": "qah7pq37uhtjrqbd23tx7omhkinaylmb7yilkag6wzlrfxb6cznq"
+			},
+			"type": "array"
+		},
+		"provider": {
+			"allOf": [
+				{
+					"/": "jx4jcsrr5vzfmt7dwtq22lxjsumgpvsynk5gzviht4nu2bslfmsq"
+				}
+			],
+			"description": "Details of the provider whose catalog items have been selected."
+		},
+		"quote": {
+			"allOf": [
+				{
+					"/": "rg22g3eqs3r3zdetk5no2tq53dx34eu7mllvjwivmyld3wtizusq"
+				}
+			],
+			"description": "The mutually agreed upon quotation for this order."
+		},
+		"ref_order_ids": {
+			"description": "A list of order IDs to link this order to previous orders.",
+			"items": {
+				"description": "ID of a previous order",
+				"type": "string"
+			},
+			"type": "array"
+		},
+		"refund_terms": {
+			"description": "Refund terms of this item",
+			"items": {
+				"/": "5zmabode6zr7vqgz3enakevmz43ufk32dqd2u2mj3bou3ulcmlaq"
+			},
+			"type": "array"
+		},
+		"replacement_terms": {
+			"description": "Replacement terms of this item",
+			"items": {
+				"/": "m2tukduax6s3hhc2qrkcoguq5tvjelejckb73pmjwjzdemehucta"
+			},
+			"type": "array"
+		},
+		"return_terms": {
+			"description": "Return terms of this item",
+			"items": {
+				"/": "pvcdxsosmt2ntdjvyla2uujnbvad6e5nxinisuzkzdhol45ue7ka"
+			},
+			"type": "array"
+		},
+		"status": {
+			"description": "Status of the order. Allowed values can be defined by the network policy",
+			"enum": ["ACTIVE", "COMPLETE", "CANCELLED"],
+			"type": "string"
+		},
+		"tags": {
+			"items": {
+				"/": "hsbai342ib6mr27azfip2r2iciz76esu7yhha4kz4pvpupr7r5ga"
+			},
+			"type": "array"
+		},
+		"type": {
+			"default": "DEFAULT",
+			"description": "This is used to indicate the type of order being created to BPPs. Sometimes orders can be linked to previous orders, like a replacement order in a retail domain. A follow-up consultation in healthcare domain. A single order part of a subscription order. The list of order types can be standardized at the network level.",
+			"enum": ["DRAFT", "DEFAULT"],
+			"type": "string"
+		},
+		"updated_at": {
+			"description": "The date-time of updated of this order",
+			"format": "date-time",
+			"type": "string"
+		},
+		"xinput": {
+			"allOf": [
+				{
+					"/": "lxiop4ljptuzockkvpjruh7rk3nu3mq6thtxwtrwxvs6ya2nw5na"
+				}
+			],
+			"description": "Additional input required from the customer to confirm this order"
+		}
+	},
+	"type": "object"
+}

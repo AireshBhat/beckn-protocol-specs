@@ -1,0 +1,25 @@
+{
+	"description": "Details of customer support",
+	"properties": {
+		"callback_phone": {
+			"format": "phone",
+			"type": "string"
+		},
+		"email": {
+			"format": "email",
+			"type": "string"
+		},
+		"phone": {
+			"format": "phone",
+			"type": "string"
+		},
+		"ref_id": {
+			"type": "string"
+		},
+		"url": {
+			"format": "uri",
+			"type": "string"
+		}
+	},
+	"type": "object"
+}

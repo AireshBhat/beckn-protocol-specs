@@ -1,0 +1,68 @@
+{
+	"description": "The intent to buy or avail a product or a service. The BAP can declare the intent of the consumer containing <ul><li>What they want (A product, service, offer)</li><li>Who they want (A seller, service provider, agent etc)</li><li>Where they want it and where they want it from</li><li>When they want it (start and end time of fulfillment</li><li>How they want to pay for it</li></ul><br>This has properties like descriptor,provider,fulfillment,payment,category,offer,item,tags<br>This is typically used by the BAP to send the purpose of the user's search to the BPP. This will be used by the BPP to find products or services it offers that may match the user's intent.<br>For example, in Mobility, the mobility consumer declares a mobility intent. In this case, the mobility consumer declares information that describes various aspects of their journey like,<ul><li>Where would they like to begin their journey (intent.fulfillment.start.location)</li><li>Where would they like to end their journey (intent.fulfillment.end.location)</li><li>When would they like to begin their journey (intent.fulfillment.start.time)</li><li>When would they like to end their journey (intent.fulfillment.end.time)</li><li>Who is the transport service provider they would like to avail services from (intent.provider)</li><li>Who is traveling (This is not recommended in public networks) (intent.fulfillment.customer)</li><li>What kind of fare product would they like to purchase (intent.item)</li><li>What add-on services would they like to avail</li><li>What offers would they like to apply on their booking (intent.offer)</li><li>What category of services would they like to avail (intent.category)</li><li>What additional luggage are they carrying</li><li>How would they like to pay for their journey (intent.payment)</li></ul><br>For example, in health domain, a consumer declares the intent for a lab booking the describes various aspects of their booking like,<ul><li>Where would they like to get their scan/test done (intent.fulfillment.start.location)</li><li>When would they like to get their scan/test done (intent.fulfillment.start.time)</li><li>When would they like to get the results of their test/scan (intent.fulfillment.end.time)</li><li>Who is the service provider they would like to avail services from (intent.provider)</li><li>Who is getting the test/scan (intent.fulfillment.customer)</li><li>What kind of test/scan would they like to purchase (intent.item)</li><li>What category of services would they like to avail (intent.category)</li><li>How would they like to pay for their journey (intent.payment)</li></ul>",
+	"properties": {
+		"category": {
+			"allOf": [
+				{
+					"/": "lniviguitiz3dj3vgianna6aec3gaz6yg73pqa2isbqsjmldroqq"
+				}
+			],
+			"description": "Details on the item category"
+		},
+		"descriptor": {
+			"allOf": [
+				{
+					"/": "7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq"
+				}
+			],
+			"description": "A raw description of the search intent. Free text search strings, raw audio, etc can be sent in this object."
+		},
+		"fulfillment": {
+			"allOf": [
+				{
+					"/": "mvqju3q2kw7wihxrynj2ismraxunbw4tqmwzqjfz76yqtnziamea"
+				}
+			],
+			"description": "Details on how the customer wants their order fulfilled"
+		},
+		"item": {
+			"allOf": [
+				{
+					"/": "2bp7dlwwdwmv6fndcnlqgnfg6qn74nq4p4odpeickkpshywfz57q"
+				}
+			],
+			"description": "Details of the item that the consumer wants to order"
+		},
+		"offer": {
+			"allOf": [
+				{
+					"/": "eqvo2r7woow2fqfxc6mzaq6ou3ox4ck5xm4jt6kzy6p7lnb6cd6q"
+				}
+			],
+			"description": "details on the offer the customer wants to avail"
+		},
+		"payment": {
+			"allOf": [
+				{
+					"/": "qah7pq37uhtjrqbd23tx7omhkinaylmb7yilkag6wzlrfxb6cznq"
+				}
+			],
+			"description": "Details on how the customer wants to pay for the order"
+		},
+		"provider": {
+			"allOf": [
+				{
+					"/": "jx4jcsrr5vzfmt7dwtq22lxjsumgpvsynk5gzviht4nu2bslfmsq"
+				}
+			],
+			"description": "The provider from which the customer wants to place to the order from"
+		},
+		"tags": {
+			"items": {
+				"/": "hsbai342ib6mr27azfip2r2iciz76esu7yhha4kz4pvpupr7r5ga"
+			},
+			"type": "array"
+		}
+	},
+	"type": "object"
+}

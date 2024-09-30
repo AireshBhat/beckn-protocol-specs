@@ -1,0 +1,79 @@
+{
+  "description": "Describes the catalog of a business.",
+  "properties": {
+    "categories": {
+      "items": {
+        "/": "lniviguitiz3dj3vgianna6aec3gaz6yg73pqa2isbqsjmldroqq"
+      },
+      "type": "array"
+    },
+    "category_id": {
+      "description": "Category Id of the provider at the BPP-level catalog",
+      "type": "string"
+    },
+    "descriptor": {
+      "/": "7vtgzdk6jinjb4khr3brtlo563dbir6temwgphwwtnpcmys5f2pq"
+    },
+    "exp": {
+      "description": "Time after which catalog has to be refreshed",
+      "format": "date-time",
+      "type": "string"
+    },
+    "fulfillments": {
+      "items": {
+        "/": "mvqju3q2kw7wihxrynj2ismraxunbw4tqmwzqjfz76yqtnziamea"
+      },
+      "type": "array"
+    },
+    "id": {
+      "description": "Id of the provider",
+      "type": "string"
+    },
+    "items": {
+      "items": {
+        "/": "2bp7dlwwdwmv6fndcnlqgnfg6qn74nq4p4odpeickkpshywfz57q"
+      },
+      "type": "array"
+    },
+    "locations": {
+      "items": {
+        "/": "4tkrkcz3dwkfnyyatcennprcmovc7ky3ovljbxqhny7nmld4ajbq"
+      },
+      "type": "array"
+    },
+    "offers": {
+      "items": {
+        "/": "eqvo2r7woow2fqfxc6mzaq6ou3ox4ck5xm4jt6kzy6p7lnb6cd6q"
+      },
+      "type": "array"
+    },
+    "payments": {
+      "items": {
+        "/": "qah7pq37uhtjrqbd23tx7omhkinaylmb7yilkag6wzlrfxb6cznq"
+      },
+      "type": "array"
+    },
+    "rateable": {
+      "description": "Whether this provider can be rated or not",
+      "type": "boolean"
+    },
+    "rating": {
+      "/": "ytsbyvjxhdqew2xw5xqqvhyjtl4vpelq5s4nscu72ipxnrbys3xq.properties.value"
+    },
+    "tags": {
+      "items": {
+        "/": "hsbai342ib6mr27azfip2r2iciz76esu7yhha4kz4pvpupr7r5ga"
+      },
+      "type": "array"
+    },
+    "time": {
+      "/": "nhsupwfrdjdoc2xs5ow63zqdaoft5thx23fj2oxiqhicslxx5eaa"
+    },
+    "ttl": {
+      "description": "The time-to-live in seconds, for this object. This can be overriden at deeper levels. A value of -1 indicates that this object is not cacheable.",
+      "minimum": -1,
+      "type": "integer"
+    }
+  },
+  "type": "object"
+}

@@ -1,0 +1,33 @@
+{
+	"description": "Describes a scalar",
+	"properties": {
+		"computed_value": {
+			"/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq"
+		},
+		"estimated_value": {
+			"/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq"
+		},
+		"range": {
+			"properties": {
+				"max": {
+					"/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq"
+				},
+				"min": {
+					"/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq"
+				}
+			},
+			"type": "object"
+		},
+		"type": {
+			"enum": ["CONSTANT", "VARIABLE"],
+			"type": "string"
+		},
+		"unit": {
+			"type": "string"
+		},
+		"value": {
+			"/": "ypjlevwjbaf5ekpvxinqxd24632vs2hldud3xqjv6cxunspzlkwq"
+		}
+	},
+	"type": "object"
+}
